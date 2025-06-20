@@ -40,7 +40,7 @@ export default function Details(props){
                 <div>
                     <button onClick={()=>{hAddToFavorites(foodDetailData?.recipe)}}>
                         {
-                            favoritesList?.length > 0 && favoritesList.findIndex((item)=>item.id === foodDetailData.recipe?.id) !== -1 ? '즐겨찾기 제거' : '즐겨찾기 추가'
+                            favoritesList?.length > 0 && favoritesList?.findIndex((item)=>item?.id === foodDetailData?.recipe?.id) !== -1 ? '즐겨찾기 제거' : '즐겨찾기 추가'
                         }
                     </button>
                 </div>
