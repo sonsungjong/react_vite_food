@@ -6,13 +6,13 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './pages/home/Home'
 import Favorites from './pages/favorites/favorites'
 import Details from './pages/details/Details'
+import Navbar from './components/navbar/Navbar'
 
 export default function App() {
 
   return (
-    <div className='App_container'>
-
-
+    <div className='App_container font-notosans-ko'>
+      <Navbar />
 
       <Routes>
         <Route path='/' element={<Home />}></Route>

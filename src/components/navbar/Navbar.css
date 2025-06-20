@@ -1,0 +1,13 @@
+.Navbar_container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height:50px;
+}
+
+.Navbar_container ul{
+    display:flex;
+    gap:1em;
+
+}

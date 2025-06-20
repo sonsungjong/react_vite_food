@@ -1,0 +1,32 @@
+.Home_container{
+    margin: 2rem auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:2.5rem;
+}
+
+.Home_Loading{
+    display:flex;
+    justify-content: center;
+    margin-top:100px;
+}
+
+.none-item-style{
+    font-size: 1.25rem;
+    text-align:center;
+    color:black;
+    font-weight: 800;
+}
+
+@media (max-width:1024px){
+    .none-item-style{
+        font-size:2.25rem;
+    }
+}
+
+@media (max-width:768px){
+    .Home_container{
+        max-width:640px;
+    }
+}
